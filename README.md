@@ -4,7 +4,7 @@
 
 由于原版仅支持在Coze平台上调用，在比赛结束后，许多用户因无法访问Coze平台而无法使用。因此，我们特别制作了OpenAI API兼容版本。只要你有OpenAI兼容的API（绝大多数大模型都有OpenAI兼容模式），就可以使用本工具来还原Bill。
 
-原题目见：[https://archive.cipherpuzzles.com/#/problem?c=ccbc15/problems/7/61](CCBC 15 存档站)
+原题目见：[CCBC 15 存档站](https://archive.cipherpuzzles.com/#/problem?c=ccbc15/problems/7/61)
 
 ## 安装和启动
 
@@ -12,7 +12,9 @@
 
 我们推荐使用 Python >= 3.8 版本。
 
-首先你需要建立`config.json`文件。填写您的API地址，API密钥（sk）和模型名称。已经为您准备好了一份示例文件，您可以直接修改。
+首先将代码clone到本地，或者直接下载源码的zip包。
+
+你需要建立`config.json`文件。填写您的API地址，API密钥（sk）和模型名称。已经为您准备好了一份示例文件，您可以直接修改。
 
 请注意，您使用的模型必须具有工具调用能力，推荐使用 `gpt-4o`。
 
